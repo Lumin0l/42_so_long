@@ -6,7 +6,7 @@
 /*   By: ide-la-i <ide-la-i@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/30 15:54:36 by ide-la-i          #+#    #+#             */
-/*   Updated: 2023/11/30 18:43:52 by ide-la-i         ###   ########.fr       */
+/*   Updated: 2023/12/05 11:55:08 by ide-la-i         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ static int	ft_arg_processor(char c, va_list args)
 	}
 	else
 		return (-1);
-}	
+}
 
 int	ft_printf(char const *format_string, ...)
 {
